@@ -717,6 +717,22 @@ body {
   color: #fff;
 }
 
+.margin{
+  height: 150px;;
+}
+
+.SCROLL{
+  animation: updown 2s ease-in-out ;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.SCROLL2{
+  animation: opa 0.8s ease-in-out; 
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
 /*アニメーション*/
 
 .PLhyouji{
@@ -735,5 +751,28 @@ body {
   }
   100%{
     opacity: 1;
+  }
+}
+
+@keyframes updown{
+  0%{
+    transform: translate(0px, 0px);
+  }
+
+  50%{
+    transform: translate(0px, -50px);
+  }
+  100%{
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes opa{
+  0%{
+    opacity: 100;
+  }
+
+  100%{
+    opacity: 0;
   }
 }
