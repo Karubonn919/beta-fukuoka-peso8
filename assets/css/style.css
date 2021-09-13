@@ -206,7 +206,7 @@ button {
           transform: rotate(90deg);
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  fill: #009245;
+  fill: #FFFFFF;
   width: 12px;
   height: 24px;
 }
