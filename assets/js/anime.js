@@ -29,3 +29,19 @@ $(function(){
     });
   });
 });
+
+$(function(){
+  $(window).on('scroll',function (){
+    let triggerClass = $('.storyopa');
+        animateClass = ('is-show');
+ 
+    $(triggerClass).each(function(){
+      let scroll       = $(window).scrollTop(),
+          triggerTop   = $(this).offset().top,
+          windowHeight = $(window).height();
+      if (scroll > triggerTop - windowHeight / 2){
+        $(this).addClass("SThyouji");
+      }
+    });
+  });
+});

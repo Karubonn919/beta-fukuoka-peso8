@@ -620,6 +620,12 @@ body {
   opacity: 0;
 }
 
+.tatie{
+  width: 4vw;
+  float: right;
+  left: -0.5vw;
+}
+
 .PLtatie{
   width: 8vw;
 }
@@ -678,7 +684,7 @@ body {
   margin: 1.5em 15px 0 0;
   padding: 7px 10px;
   color: white;
-  font-size: 2vw;
+  font-size: 1.5vw;
   background: black;
   border: solid 3px white;
   box-sizing: border-box;
@@ -741,6 +747,16 @@ body {
   font-family: "bit";
 }
 
+.mannnaka{
+  text-align: center;
+  color: #fff;
+  margin-bottom: 200px;
+}
+
+.storyopa{
+  opacity: 0;
+}
+
 /*アニメーション*/
 
 .PLhyouji{
@@ -749,6 +765,11 @@ body {
 }
 
 .RDhyouji{
+  animation: hyouji 1.5s ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.SThyouji{
   animation: hyouji 1.5s ease-in-out;
   animation-fill-mode: forwards;
 }

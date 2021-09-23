@@ -25,8 +25,11 @@ const app = Vue.createApp({
           // q2: 'えええ',
           // q3: 'おおお'
         },
-        stage3: {
+        stage02: {
           q1: 'ファイアウォール',
+        },
+        stage3: {
+          q1: 'アイティースキル',
           // q2: 'かかか',
           // q3: 'ききき',
         }
@@ -44,6 +47,11 @@ const app = Vue.createApp({
           // false, // 2-2
           // false, // 2-3
         ],
+        stage02: [
+          false, // 2-1
+          // false, // 2-2
+          // false, // 2-3
+        ],
         stage3: [
           false, // 3-1
           // false, // 3-2
@@ -55,6 +63,7 @@ const app = Vue.createApp({
       clear: {
         stage1: false,
         stage2: false,
+        stage02: false,
         stage3: false,
       },
 
@@ -64,6 +73,7 @@ const app = Vue.createApp({
       next: {
         stage1: false,
         stage2: false,
+        stage02: false,
       },
     }
   },
